@@ -1,4 +1,27 @@
-# COVID-CT
+# COVID-19 CT Classification (Student Research Project)
+
+This repository contains code for a convolutional neural network (CNN) based system to classify chest CT scans into COVID-19 vs. non-COVID cases.
+
+### Project Highlights
+- Developed full deep learning pipeline for medical image classification
+- Implemented model training, validation, and evaluation scripts in PyTorch
+- Curated CT dataset and constructed data preprocessing and augmentation workflows
+- Designed experiments and analyzed classification performance
+
+### Technical Stack
+- Python, PyTorch
+- OpenCV, NumPy
+- Training pipeline with reproducible configuration
+
+### My Contributions
+- Training and evaluation script development  
+- Dataset preprocessing and experiment configuration  
+- Model performance analysis and results visualization  
+
+### Run Training
+```bash
+python train.py --epochs 50 --batch_size 32
+
 
 
 ### The utility of this dataset has been confirmed by a senior radiologist in Tongji Hospital, Wuhan, China, who has performed diagnosis and treatment of a large number of COVID-19 patients during the outbreak of this disease between January and April. 
